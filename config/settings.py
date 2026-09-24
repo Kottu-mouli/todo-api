@@ -23,7 +23,7 @@ DEBUG = env_bool("DEBUG", True)
 ALLOWED_HOSTS = env_list(
     "ALLOWED_HOSTS",
     "127.0.0.1,localhost",
-    django-todo-api-olav.onrender.com,
+    "django-todo-api-olav.onrender.com",
 )
 INSTALLED_APPS = [
     "django.contrib.admin",
