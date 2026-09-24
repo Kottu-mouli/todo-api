@@ -21,7 +21,6 @@ SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-local-development-only")
 DEBUG = env_bool("DEBUG", True)
 
 ALLOWED_HOSTS = env_list(
-    "ALLOWED_HOSTS",
     "127.0.0.1,localhost",
     "django-todo-api-olav.onrender.com",
 )
